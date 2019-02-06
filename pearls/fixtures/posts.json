@@ -1,0 +1,40 @@
+[
+  {
+    "model": "pearls.post",
+    "pk": 1,
+    "fields": {
+      "title": "Lorem ipsum",
+      "description": "dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque, dui sit amet tincidunt fringilla, dolor libero pretium eros, sit amet porttitor lorem elit a tellus. Suspendisse in vulputate ligula, pharetra molestie mauris. Vestibulum ac turpis id diam ornare pretium vitae in sem. Duis auctor, est vel ultricies malesuada, tortor libero viverra velit, eu tempor ante mauris vitae erat. Sed varius faucibus pulvinar. Pellentesque tristique, tortor semper semper venenatis, urna nulla dignissim mi, vestibulum rutrum neque augue vel leo. Nulla sed mauris eleifend, rutrum mi vitae, pulvinar orci. Etiam felis nibh, malesuada id dapibus ac, blandit venenatis metus. Etiam vel porta ex. Quisque id posuere nisl, vel elementum magna. Suspendisse vel imperdiet nibh. Praesent finibus consequat turpis, nec efficitur dolor interdum feugiat. Maecenas sit amet tincidunt libero. Maecenas luctus lectus ac ultricies posuere.",
+      "author": 1,
+      "created_at": "2013-03-16T17:41:28.000Z"
+    }
+  },
+  {
+    "model": "pearls.post",
+    "pk": 2,
+    "fields": {
+      "title": "Morbi eget",
+      "description": "posuere purus, quis vulputate metus. Maecenas congue gravida tempus. Quisque commodo enim orci, eget consectetur arcu condimentum vel. Suspendisse dui urna, congue eget dui eu, commodo egestas turpis. Vivamus dapibus enim ac justo porttitor, interdum tincidunt elit rutrum. Curabitur porta enim nisl, in mollis enim feugiat vel. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut vel blandit libero, nec dignissim leo. Pellentesque ac tristique libero, ac lacinia sapien.",
+      "author": 1,
+      "created_at": "2013-04-16T17:41:28.000Z"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$10A6E6CC8311A3E2BCC09BF6C199ADECD5DD59408C343E926B129C4914F3CB01",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "петя",
+      "first_name": "Пётр",
+      "last_name": "Петров",
+      "email": "petr@example.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2000-01-01T22:00:00.000Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  }
+]

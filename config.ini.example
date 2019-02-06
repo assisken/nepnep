@@ -1,0 +1,33 @@
+[app]
+debug =
+
+[development]
+static-root = static
+media-root = static/media
+
+[production]
+secret-key =
+static-root =
+media-root =
+
+[database]
+database =
+host =
+port =
+user =
+password =
+default-character-set = utf8
+
+[uwsgi]
+module = nepnep.wsgi:application
+plugin = python3
+callable = application
+chdir =
+master = True
+pidfile = /tmp/nepnep.pid
+socket = 127.0.0.1:8000
+vacuum = True
+max-requests = 5000
+workers = 4
+venv =
+logto =
